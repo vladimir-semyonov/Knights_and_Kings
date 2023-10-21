@@ -5,7 +5,6 @@
 
 import random
 import time
-a=random.randint(0,1)
 
 print("Добро пожаловать в королевство")
 time.sleep(3)
@@ -32,8 +31,8 @@ if role=="1":
     print("1.Агресивные действия\n2.Действия с тактикой главнокомандующего войсками")
     battle=input()
     if battle=="1":
-        print(a)
-        if a=="0":
+        a=random.randint(0,1)
+        if a==0:
             time.sleep(1)
             print("Вы атаковали войска орков")
             time.sleep(3)
@@ -46,7 +45,7 @@ if role=="1":
             print("Это нанесло урон по всей армии")
             time.sleep(3)
             print("Game Over!")
-        elif a=="1":
+        elif a==1:
             print("Вы атаковали войска орков")
             time.sleep(1)
             print("Ваша агрессия оказалась очень кстати")
