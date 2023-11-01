@@ -116,19 +116,19 @@ if role=="2":
     Kz1()
     z1=input()
     if z1=="1":
-       Kzp()
+        Kzp()
     elif z1=="2":
         Kzm()  
     Kz2()
     z2=input()
     if z2=="1":
-       Kzp()
+        Kzp()
     elif z2=="2":
         Kzm() 
     Kz3()
     z3=input()
     if z3=="1":
-       Kzp()
+        Kzp()
     elif z3=="2":
         Kzm() 
     
